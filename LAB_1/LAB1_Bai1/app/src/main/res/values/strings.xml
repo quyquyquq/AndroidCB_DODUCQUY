@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">LAB1_Bai1</string>
+    <string name="app_name">Máy tính</string>
+    <string name="result">Kết quả</string>
+    <string name="plus">+</string>
+    <string name="tru">-</string>
+    <string name="nhan">*</string>
+    <string name="chia">/</string>
+    <string name="tram">%</string>
 </resources>
