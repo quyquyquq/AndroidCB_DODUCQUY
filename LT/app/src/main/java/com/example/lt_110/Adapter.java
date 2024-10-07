@@ -1,0 +1,2 @@
+package com.example.lt_110;public class Adapter {
+}

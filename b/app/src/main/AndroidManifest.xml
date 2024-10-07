@@ -1,0 +1,36 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.end">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/a"
+        android:label="Truyện cười"
+        android:roundIcon="@drawable/a"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight">
+
+        <!-- Khai báo thuộc tính android:exported cho các activity có intent-filter -->
+        <activity android:name=".JokeDetailActivity"
+            android:parentActivityName=".MainActivity" />
+
+        <activity android:name=".JokeListActivity"
+            android:parentActivityName=".MainActivity" />
+
+        <!-- SplashActivity là activity khởi động -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"> <!-- Đặt android:exported="true" -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- MainActivity không cần intent-filter -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" /> <!-- Đặt android:exported="true" -->
+
+    </application>
+
+</manifest>
