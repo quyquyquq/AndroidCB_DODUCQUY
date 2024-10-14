@@ -1,0 +1,34 @@
+{
+  "categories": {
+    "Truyen Cuoi 1": [
+      {
+        "title": "Truyen Cuoi 1.1",
+        "content": "Nội dung truyện cười 1.1..."
+      },
+      {
+        "title": "Truyen Cuoi 1.2",
+        "content": "Nội dung truyện cười 1.2..."
+      }
+    ],
+    "Truyen Cuoi 2": [
+      {
+        "title": "Truyen Cuoi 2.1",
+        "content": "Nội dung truyện cười 2.1..."
+      },
+      {
+        "title": "Truyen Cuoi 2.2",
+        "content": "Nội dung truyện cười 2.2..."
+      }
+    ],
+    "Truyen Ma": [
+      {
+        "title": "Truyen Ma 1.1",
+        "content": "Nội dung truyện ma 1.1..."
+      },
+      {
+        "title": "Truyen Ma 1.2",
+        "content": "Nội dung truyện ma 1.2..."
+      }
+    ]
+  }
+}

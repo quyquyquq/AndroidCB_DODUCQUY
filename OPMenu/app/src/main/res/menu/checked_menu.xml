@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <group >
+        <item
+            android:id="@+id/menu_send"
+            android:checkable="true"
+            android:enabled="true"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="Received Email" />
+        <item
+            android:id="@+id/menu_Notification"
+            android:checkable="true"
+            android:enabled="true"
+            android:icon="@android:drawable/ic_notification_overlay"
+            android:title="Received Notification" />
+    </group>
 </menu>
